@@ -1,0 +1,16 @@
+[package]
+name = "issue-17417"
+version = "0.1.0"
+authors = ["Steve Klabnik <steve@steveklabnik.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+gcc = "0.3"
+
+[features]
+default = []
+
+fail = []
